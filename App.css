@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Google-Sans';
+  src: url(Product\ Sans\ Regular.ttf);
+}
+a{text-decoration: none;color: white;}
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Google-Sans", serif;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;}
+  
+::-webkit-scrollbar{display: none;}
+label{display: inline-block;margin-inline: 1rem;}
+input{outline: none;}
+@media (max-width:1000px){#main{display: none;}#sory{display: block;text-align: center;}}
+
